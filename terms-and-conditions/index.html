@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>필수이용약관</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="form">
+      <h1 lang="ko">Moohae</h1>
+
+      <form action="" method="GET">
+        <div>
+          <input type="checkbox" id="all" />
+          <label for="all">
+            무해 이용약관, 개인정보 수집 및 이용, 위치정보
+            이용약관&#40;선택&#41;, 프로모션 정보 수신&#40;선택&#41;에 모두
+            동의합니다.
+          </label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="agreement" class="mandatory" />
+          <label for="agreement">
+            무해 이용약관 동의 <span>&#40;필수&#41;</span>
+          </label>
+          <div class="detail">
+            여러분을 환영합니다. 무해 서비스 및 제품&#40;이하 '서비스'&#41;을
+            이용해 주셔서 감사합니다. 본 약관은 다양한 무해 서비스의 이용과
+            관련하여 무해 서비스를 제공하는 무해 주식회사&#40;이하 '무해'&#41;와
+            이를 이용하는 무해 서비스 회원&#40;이하 ‘회원’&#41; 또는 비회원과의
+            관계를 설명하며, 아울러 여러분의 무해 서비스 이용에 도움이 될 수
+            있는 유익한 정보를 포함하고 있습니다.
+          </div>
+        </div>
+
+        <div>
+          <input type="checkbox" id="personal-info" class="mandatory" />
+          <label for="personal-info">
+            개인정보 수집 및 이용 동의 <span>&#40;필수&#41;</span>
+          </label>
+          <div class="detail">
+            개인정보보호법에 따라 무해에 회원가입 신청하시는 분께 수집하는
+            개인정보의 항목, 개인정보의 수집 및 이용목적, 개인정보의 보유 및
+            이용기간, 동의 거부권 및 동의 거부 시 불이익에 관한 사항을 안내
+            드리오니 자세히 읽은 후 동의하여 주시기 바랍니다.
+          </div>
+        </div>
+
+        <div>
+          <input type="checkbox" id="promotion" class="optional" />
+          <label for="promotion">프로모션 정보 수신 동의</label>
+          <div class="detail">
+            무해에서 제공하는 이벤트/혜택 등 다양한 정보를 휴대전화&#40;무해앱
+            알림 또는 문자&#41;, 이메일로 받아보실 수 있습니다. 일부
+            서비스&#40;별도 회원 체계로 운영하거나 무해 가입 이후 추가 가입하여
+            이용하는 서비스 등&#41;의 경우, 개별 서비스에 대해 별도 수신 동의를
+            받을 수 있으며, 이때에도 수신 동의에 대해 별도로 안내하고 동의를
+            받습니다.
+          </div>
+        </div>
+
+        <button type="submit" disabled>확인</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -35,6 +35,7 @@ function toggleAllCheck() {
     }
   }
   allCheckActivator();
+  btnActivator();
 }
 
 function toggleCheck(e) {
